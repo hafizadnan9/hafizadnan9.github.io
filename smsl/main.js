@@ -3,9 +3,9 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[0,0,1325,1325]]},
-		{name:"index_atlas_2", frames: [[1002,1898,630,120],[1002,1340,677,556],[1021,844,835,494],[1021,0,596,842],[0,0,1019,1019],[0,1021,1000,1000]]},
-		{name:"index_atlas_3", frames: [[571,520,237,94],[557,122,415,149],[635,424,375,94],[416,273,410,149],[632,0,378,94],[0,244,414,149],[0,0,630,120],[0,122,555,120],[0,424,633,77],[0,503,569,77]]}
+		{name:"main_atlas_1", frames: [[0,0,1325,1325]]},
+		{name:"main_atlas_2", frames: [[1002,1898,630,120],[1002,1340,677,556],[1021,844,835,494],[1021,0,596,842],[0,0,1019,1019],[0,1021,1000,1000]]},
+		{name:"main_atlas_3", frames: [[571,520,237,94],[557,122,415,149],[635,424,375,94],[416,273,410,149],[632,0,378,94],[0,244,414,149],[0,0,630,120],[0,122,555,120],[0,424,633,77],[0,503,569,77]]}
 ];
 
 
@@ -30,98 +30,98 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_13 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_12 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_11 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["main_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["main_atlas_3"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["main_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["main_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.background = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["main_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -146,21 +146,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,6201,4134);
 
 
 (lib.pngwingcom29 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["main_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.pngwingcom30 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["main_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.pngwingcom31 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["main_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -425,9 +425,9 @@ lib.properties = {
 		{src:"images/patrickrobertdoyleAH8zKXqFITAunsplash.jpg", id:"patrickrobertdoyleAH8zKXqFITAunsplash"},
 		{src:"images/rot2.jpg", id:"rot2"},
 		{src:"images/samsul.png", id:"samsul"},
-		{src:"images/index_atlas_1.png", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png", id:"index_atlas_3"}
+		{src:"images/main_atlas_1.png", id:"main_atlas_1"},
+		{src:"images/main_atlas_2.png", id:"main_atlas_2"},
+		{src:"images/main_atlas_3.png", id:"main_atlas_3"}
 	],
 	preloads: []
 };
